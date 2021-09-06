@@ -1,13 +1,5 @@
 import React from 'react'
-import { ReactDOM } from 'react'
 import App from './App'
+import ReactDOM from 'react-dom'
 
-const  index = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default index
+ReactDOM.render(<App/>, document.getElementById('root'))
